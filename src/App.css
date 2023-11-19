@@ -53,12 +53,12 @@ main {
   color: #21222a;
   background-color: #fff;
   padding: 57px 27px;
-  background-image: url(components/Images/react-icon-large.png);
+  background-image: url(components/Images/react-icon-dark.png);
   background-repeat: no-repeat;
   background-position: right 70%;
 }
 main.dark {
-  background-image: url("./images/react-icon-dark.png");
+  background-image: url(components/Images/react-icon-light.png);
   background-color: #282d35;
   color: white;
 }
@@ -106,7 +106,7 @@ main h1 {
   box-sizing: content-box;
 }
 
-nav.dark .toggler--slider {
+header.dark .toggler--slider {
   border-color: white;
   background-color: #f5f5f5;
 }
@@ -118,7 +118,7 @@ nav.dark .toggler--slider {
   border-radius: 50%;
 }
 
-nav.dark .toggler--slider--circle {
+header.dark .toggler--slider--circle {
   background-color: black;
 }
 
@@ -126,7 +126,7 @@ nav.dark .toggler--slider--circle {
   color: #2b283a;
 }
 
-nav.dark .toggler--light {
+header.dark .toggler--light {
   color: #918e9b;
 }
 
@@ -134,10 +134,10 @@ nav.dark .toggler--light {
   color: #d5d4d8;
 }
 
-nav.dark .toggler-dark {
+header.dark .toggler-dark {
   color: #ffffff;
 }
 
-nav.dark .toggler--slider {
+header.dark .toggler--slider {
   justify-content: flex-end;
 }
