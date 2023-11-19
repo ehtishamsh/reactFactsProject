@@ -1,7 +1,7 @@
 import React from "react";
-function MainContent() {
+function MainContent({ darkmode }) {
   return (
-    <main>
+    <main className={darkmode ? "dark" : ""}>
       <h1>Fun facts about React</h1>
       <ul>
         <li>
